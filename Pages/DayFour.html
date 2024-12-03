@@ -1,10 +1,160 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+<title> Day Four </title>
 </head>
-<body>
-$END$
+
+
+<body style ="background-color: burlywood">
+<div id ="Day orders">
+  <h1> Day four of becoming a web developer </h1>
+  <ul style = "background-color: bisque; width: 105px; height: 100px">
+    <h4> Daily journeys </h4>
+    <li><a href ="DayOne.html" target ="_blank"> Day one</a></li>
+    <li><a href ="DayTwo.html" target ="_blank"> Day two </a></li>
+    <li><a href ="DayThree.html" target ="_blank"> Day three </a></li>
+  </ul>
+</div>
 </body>
-</html>
+
+<body>
+<div id = "Beginning">
+<h3> Today is the 02-12-2024</h3>
+  <p> We will be working with forms today.
+    <br> So far we have learned about</p>
+  <ol style ="background-color: darkgoldenrod; width: 200px; height: 99px">
+  <li> Text </li>
+  <li> Pictures </li>
+  <li> Background colors</li>
+  <li> Tables</li>
+  <li> Hyperlinks</li>
+</ol>
+
+  <table style = "background-color: darkgray">
+    <thead>
+    <tr>
+      <th> Learning date </th>
+      <th> Learning exercise</th>
+    </tr>
+    </thead>
+<tbody>
+
+</tbody>
+    <tr>
+      <td> 28-11-2024</td>
+      <td> Text and images </td>
+    </tr>
+    <tr>
+      <td> 29-11-2024 </td>
+      <td> Background colors and hyperlinks</td>
+    </tr>
+
+    <tr>
+      <td> 30-11-2024 </td>
+      <td> Tables </td>
+    </tr>
+  </table>
+</div>
+
+<form>
+<H2> This is a form where we can enter input </H2>
+<p> For now, we will look into forms which will help us receive information of the user</p>
+  <label for="Greetings"> This message is to greed you </label>
+  <br>
+    <input type ="text" name="Hello" value="Hello" id="Greetings">
+</form>
+
+<form>
+  <h4> Let us try a new form where you can log in</h4>
+  <label for="Username"> Enter your username</label>
+  <br>
+  <input type="text" name="Username-cred" id="Username">
+  <br>
+  <label for="Password"> Enter your password</label>
+  <br>
+  <input type="password" name="User-password" id="Password">
+</form>
+
+<form>
+<h4> Let us try yet a another new form where you can enter number </h4>
+<label for="amount"> Enter the amount of days you have practised </label>
+  <input type="number" id="amount" name="amount" step="1">
+</form>
+
+<form>
+<h4> Let us try to make a slider </h4>
+<label for ="Volume"> Control the volume on the browser </label>
+<br>
+<span> 0 </span>
+<input type = "range" name = "Volume" id = "Volume" step="1" min="0" max="10">
+<span> 10 </span>
+</form>
+
+<form>
+  <h4> Let us try to make a checkbox form</h4>
+  <span> Choose the pizza toppings you would like </span>
+  <br>
+
+  <input type="checkbox" id="Cheese" name="toppings" value="cheese">
+  <label for="Cheese">Extra cheese</label>
+
+  <input type="checkbox" name="Toppings" id="pepperoni" value="pepperoni">
+  <label for="pepperoni"> Extra pepp</label>
+
+  <input type="checkbox" id="Kebab" name="Toppings" value="Kebab">
+  <label for ="Kebab"> Extra Kebab </label>
+</form>
+
+<form>
+<h4> Let us create a checkbox where you only have two answers </h4>
+  <span> Would you like to sleep </span>
+  <br>
+
+  <input type="radio" name="sleep" id="yes" value="yes">
+  <label for="yes"> Yes </label>
+
+  <input type="radio" name="sleep" id="no" value="no">
+  <label for="no"> No </label>
+</form>
+
+<form>
+  <h4> Let us create a dropdown menu to choose dinner for today</h4>
+  <span> Choose what meal you would like to eat today </span>
+  <br>
+
+  <label for ="dinner"> What would you like to eat today </label>
+  <br>
+  <select id="dinner" name="dinner">
+    <option name="Pizza"> Pizza </option>
+    <option name="Lassagne"> Lassagna </option>
+    <option name ="Pasta"> Pasta </option>
+  </select>
+</form>
+
+<form>
+<h4> Lets create a dropdown where you can search </h4>
+  <label for ="food">What food do you like </label>
+  <br>
+  <input type="text" list="foods" id="food" name="food">
+
+  <datalist id="foods" name="food">
+    <option value="pizza"></option>
+    <option value="sharwama"></option>
+    <option value ="Pasta"></option>
+  </datalist>
+</form>
+
+<form>
+<h4> Let us create a box where user can enter input </h4>
+  <label for="comments"> Do you have any comments to me</label>
+  <br>
+  <textarea id="comments" name="comments" rows="10" cols="30">
+    Do you want to tell me anything?
+  </textarea>
+</form>
+<form>
+<input type ="submit" value="Send">
+</form>
+
+
+<!---Look at placeholder next-->
+</body>
