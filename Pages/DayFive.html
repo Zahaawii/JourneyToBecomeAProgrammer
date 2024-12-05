@@ -1,10 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+  <title> Day Five </title>
 </head>
-<body>
-$END$
+
+<body style = "background-color: powderblue">
+<ol>
+  <li> <a href ="DayOne.html" target = "_blank"> Day one </a></li>
+  <li> <a href = "DayTwo.html" target = "_blank"> Day two </a></li>
+  <li> <a href = "DayThree.html" target = "_blank"> Day three </a></li>
+  <li> <a href = "DayFour.html" target = "_blank"> Day four </a></li>
+</ol>
+
+<h1> Day five of learning web development </h1>
+
+<div id = learningElements>
+<p> We have learned some fundamentals regarding HTML with CodeCademy
+  <br> Some of the elements we have learned is:</p>
+<ul>
+  <li> Headings and text </li>
+  <li> Images and videos </li>
+  <li> Background colors and background color boxes </li>
+  <li> Hyperlinks and Links </li>
+  <li> Tables and forms </li>
+  <li> Text boxes </li>
+</ul>
+</div>
+
+<form>
+  <label for="textBox"> Hello what do you have in mind today </label>
+  <br>
+<textarea id="textBox" name="textBox" rows="5" cols="35">
+Is there anything you would like to talk about today </textarea>
+</form>
+
+<br>
+<br>
+
+<form>
+  <span> How do you feel today? </span>
+  <br>
+
+  <input type ="checkbox" id="Good" name ="Good" required>
+  <label for="Good"> Good? </label>
+
+  <input type ="checkbox" id="Bad" name="bad">
+  <label for="Bad"> Bad?</label>
+
+  <input type ="checkbox" id="talkAboutIt" name="talkAboutIt" required>
+  <label for="talkAboutIt"> Talk about it? </label>
+</form>
+
+<form>
+  <label for="talking"> What do you want to say about your mood</label>
+  <br>
+  <textarea id="talking" rows="10" cols="30" required> What is on your mind</textarea>
+</form>
+<form>
+<input type ="submit" id="answers" value="Submit"></form>
+
+<p> I would like to learn how to style a site now and not keep adding these things.
+<br> However, I know that I have to crawl before I can run. Therefore, we will continue
+<br> to code what CodeCademy thinks that is the most efficient way to do it and that is why the page is still looking like this</p>
+
+<form>
+<label for="textMax">Tell me something</label>
+<input name="textMax" id="textMax" type="text" minlength="5" maxlength="10" required>
+</form>
+
+  <form>
+    <label for="creditcard"> Enter your credit card informations</label>
+    <br>
+    <input id="creditcard" name="creditcard" type="text" required pattern="[0-9]{14,16}">
+    <input type="submit" value="submit">
+  </form>
+
+
 </body>
-</html>
