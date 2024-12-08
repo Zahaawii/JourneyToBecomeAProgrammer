@@ -9,3 +9,43 @@ body {
   padding: 25px;
   font-family: sans-serif;
 }
+
+h1 {
+  color: maroon;
+}
+
+h2 {
+  color: #88CCF1;
+  font-family: Algerian, serif;
+  padding: 250px;
+}
+
+* {
+  border: 1px solid darkgreen;
+}
+
+.header{
+  padding: 10px;
+  color: yellow;
+}
+
+.border {
+  text-transform: uppercase;
+  font-family: Bahnschrift, serif;
+}
+
+#Header {
+  font-family: cursive;
+}
+
+a[href] {
+  color: lightblue;
+}
+
+img[src*='OIP'] {
+  height: 500px;
+}
+
+img[src*='Letsgo'] {
+  height: 200px;
+}
