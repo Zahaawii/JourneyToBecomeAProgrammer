@@ -1,0 +1,46 @@
+.Header {
+  text-align: justify;
+  color: #00f6ee;
+
+}
+
+body {
+  background: #141E30;
+    margin: 0;
+    padding: 0;
+  background: linear-gradient(-45deg, #35577D, #141E30);
+}
+
+
+h1 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.table {
+  color: #80e2ff;
+}
+
+li{
+  text-align: justify;
+  color: white;
+  font-family: "American Typewriter", serif;
+  text-transform: uppercase;
+
+}
+
+a:visited, a:link {
+  color: white;
+}
+
+li:hover {
+  background-color: olivedrab; width: 200px;
+}
+
+
+
+
+
+
+
+
