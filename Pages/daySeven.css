@@ -1,5 +1,6 @@
 h1 {
   color: white;
+  text-align: center;
 }
 
 body {
@@ -7,6 +8,61 @@ body {
   margin: 0;
   padding: 0;
   background: linear-gradient(-45deg, #35577D, #141E30);
+  font-family: AppleMyungjo, serif;
+  overflow: scroll;
+}
+
+#beginning .content p{
+  text-align: center;
+  color: white;
+}
+
+#middle .middleContent p{
+  color: darkolivegreen;
+  border: 3px solid darkolivegreen;
+  width: 400px;
+}
+
+h2 {
+  color: white;
+  font-size: 14px;
+  line-height: 48px;
+  text-align: center;
+  border: 3px dotted white;
+  width: 400px;
+  margin: 0 auto;
+}
+
+#circle {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  border: 3px dotted red;
+  min-width: 100px;
+  max-width: 100px;
+  width: 100px;
+  height: 100px;
+  margin: 20px auto;
+  padding: 40px 30px;
+  border-radius: 50%;
+}
+.test-one {
+ margin-left: 20px;
+ color: white;
+}
+.test-two {
+  margin-right: 20px;
+  color: white;
+}
+
+li {
+  color: #FFF;
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 80px;
 }
 
 
