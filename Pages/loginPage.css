@@ -28,7 +28,7 @@ body {
   color: cornflowerblue;
   border: 2px solid floralwhite;
   border-radius: 10px;
-  box-shadow: 0px 24px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 24px 8px rgba(0, 0, 0, 0.1);
   padding: 30px 40px;
   backdrop-filter: blur(20px);
 }
@@ -53,7 +53,7 @@ body {
   border: 1px solid cornflowerblue;
   border-radius: 40px;
   font-size: 16px;
-  color: white;
+  color: cornflowerblue;
   padding: 10px 45px 20px 20px;
 }
 
@@ -72,7 +72,7 @@ body {
 .remember-forgot {
   display: flex;
   justify-content: space-between;
-  font-size: 14.5px;
+  font-size: 15px;
   margin: -10px 0 15px;
 }
 

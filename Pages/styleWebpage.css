@@ -1,42 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  height: auto;
+
+}
+
 body {
-    background-color: #fdfdfd;
+  background-color: #FAFAFA;
+  height: auto;
+
+}
+
+.Heading {
+    text-align: center;
+    margin: 30px;
 }
 
 h1 {
-    text-align: center;
+  color: cornflowerblue;
 }
+.logo {
+  margin: auto;
+  position: fixed;
+  top: 1%;
+  left: 1%;
+  padding: 30px;
+  display: flex;
+  text-decoration: underline;
+  color: cornflowerblue;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
 
 .navigationMenu {
-    width:  100%;
-    color: black;
-
+    width:  85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+  justify-content: space-evenly;
 }
 
-.navigationMenu li {
-    display: block;
-    float: left;
-    width: 20%;
-    margin: 2%;
+.navigationMenu ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+    position: relative;
 }
 
+.navigationMenu ul li a {
+  text-decoration: none;
+  color: cornflowerblue;
+  text-transform: uppercase;
+}
 
-.loginButtom {
+.navigationMenu ul li a::after {
+  content: '';
+  height: 3px;
+  width: 100%;
+  background-color: cornflowerblue;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+}
+
+.loginBottom {
     position: fixed;
-    top: 10px;
-    right: 10px;
+    top: 1%;
+    right: 1%;
     text-decoration: underline;
-    background-color: #3232f1;
+    background-color: cornflowerblue;
     color: white;
+    cursor: pointer;
     padding: 10px;
     margin: 1%;
-    border-radius: 25px;
-
+    border-radius: 20px;
 }
 
-.loginButtom:visited, loginButtom:link {
+.loginBottom:visited {
     color: white;
 }
 
-.loginButtom:hover {
-    background-color: deepskyblue;
+.loginBottom:link {
+  color: white;
 }
+
+.loginBottom:hover {
+    background-color: cornflowerblue;
+}
+
+.content{
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: cornflowerblue;
+  text-align: center;
+}
+
+.content h1 {
+  font-size: 40px;
+  margin-top: 80px;
+}
+
+.content p {
+  margin: 20px auto;
+  font-weight: 100;
+  line-height: 25px;
+}
+
+button {
+  width: 10%;
+  padding: 0.5% 0;
+  text-align: center;
+  margin: 0.5% 0.5%;
+  font-weight: bold;
+  border-radius: 15px;
+  border: 2px solid cornflowerblue;
+  background-color: transparent;
+  color: cornflowerblue;
+  cursor: pointer;
+}
+
+a{
+  color: cornflowerblue;
+}
+
+button:hover{
+  background-color: cornflowerblue;
+  color: white;
+  margin: auto;
+}
+
+button a:hover{
+  background-color: cornflowerblue;
+  color: white;
+  margin: auto;
+  text-decoration: underline;
+}
+
+
+
+
+
