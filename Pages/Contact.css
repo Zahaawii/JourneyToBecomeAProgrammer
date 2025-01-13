@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  height: auto;
+}
+
+.navigationMenu {
+  padding: 10px 20px;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 18px;
+  color: cornflowerblue;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.logo a {
+  color: cornflowerblue;
+  text-decoration: none;
+}
+
+.navigationLinks {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navigationLinks li {
+  margin: 0 15px;
+}
+
+.navigationLinks a {
+  color: cornflowerblue;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.navigationMenu ul li {
+  display: inline;
+  list-style: none;
+  margin: 0 20px;
+  position: relative;
+}
+
+.navigationMenu ul li a {
+  text-decoration: none;
+  color: cornflowerblue;
+  text-transform: uppercase;
+}
+
+.navigationMenu ul li a::after {
+  content: '';
+  height: 3px;
+  width: 100%;
+  background-color: cornflowerblue;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+}
+
+
+.loginBottom{
+
+  background-color: cornflowerblue;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.loginBottom:visited, link {
+  color: white;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1000px;
+
+}
+
+.Contact {
+  background-color: #FAFAFA;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.1);
+  width: 500px;
+  text-align: center;
+}
+
+.Contact h1 {
+  color: cornflowerblue;
+  margin-bottom: 50px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  gap: 15px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid cornflowerblue;
+  border-radius: 15px;
+  font-size: 16px;
+  color: cornflowerblue;
+}
+
+button {
+  color: cornflowerblue;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 10px 15px;
+}
+
