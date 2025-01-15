@@ -1,0 +1,131 @@
+* {
+  font-family: sans-serif;
+  height: auto;
+  color: cornflowerblue;
+}
+
+body {
+  background-color: #FAFAFA;
+}
+
+.navigationMenu {
+  padding: 10px 20px;
+}
+
+.navigationContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: underline;
+  text-transform: uppercase;
+
+}
+
+.logo {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: none;
+}
+
+.logo a {
+  text-decoration: none;
+}
+
+
+.loginButton {
+  background-color: cornflowerblue;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 20px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.loginButton:visited, .loginButton a {
+  color: white;
+}
+
+.navigationLinks {
+  display:flex;
+  align-items: center;
+  list-style: none;
+}
+
+.navigationLinks {
+  margin: 0 15px;
+}
+
+.navigationLinks a {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.navigationMenu ul li {
+  display: inline;
+  margin: 0 20px;
+  position: relative;
+
+}
+
+.aboutMe {
+  border-radius: 30px;
+  padding: 30px;
+  text-align: center;
+  margin: 50px 50px 50px 50px;
+  box-shadow: 3px 4px 9px rgba(0, 0, 0, 0.1);
+}
+
+.myName {
+  text-align: left;
+  padding: 10px;
+}
+
+.aboutMeHeading {
+  text-align: left;
+  text-decoration: underline;
+}
+
+.text {
+  text-align: left;
+}
+
+.aboutMePhotoSection {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 20px auto;
+  gap: 20px;
+  border-radius: 30px;
+  max-width: 800px;
+}
+
+.aboutMeTextPhoto {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  padding: 60px;
+  border-radius: 10px;
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  background-color: cornflowerblue;
+  z-index: 1;
+  margin-right: -100px;
+}
+
+.aboutMeText {
+  position: relative;
+  text-align: left;
+  color: whitesmoke;
+  margin-right: 50px;
+  font-weight: 500;
+}
+
+
+.aboutMePhotoSection img {
+  z-index: 2;
+  height: auto;
+  width: 75%;
+  border-radius: 10px;
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.1);
+}
